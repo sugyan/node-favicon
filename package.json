@@ -4,6 +4,7 @@
     "private": true,
     "dependencies": {
         "express": "2.5.0",
-        "jade": ">= 0.16.4"
+        "jade": ">= 0.16.4",
+        "socket.io": "0.8.6"
     }
 }
