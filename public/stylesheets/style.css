@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 40px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+table {
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid lightgray;
+    cursor: pointer;
+    padding: 0;
+}
+
+div.cell {
+    width: 20px;
+    height: 20px;
 }

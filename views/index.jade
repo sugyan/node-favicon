@@ -1,2 +1,8 @@
 h1= title
-p Welcome to #{title}
+table#stage(cellspacing="0")
+  - for row in "0123456789ABCDEF".split('')
+    tr
+    - for col in "0123456789ABCDEF".split('')
+      td
+        div.cell(id="#{row}#{col}", style="background-color:##{stage[row + col] || 'ffffff'};")
+input#color.color(value="000000")
