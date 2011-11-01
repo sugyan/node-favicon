@@ -36,7 +36,6 @@ app.configure('production', function () {
 // Routes
 
 app.get('/', function (req, res) {
-    console.log(stage);
     res.render('index', {
         title: 'Favicon colloaborator',
         stage: stage

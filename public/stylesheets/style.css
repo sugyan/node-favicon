@@ -1,5 +1,5 @@
 body {
-    padding: 40px;
+    padding: 20px 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -20,4 +20,12 @@ table td {
 div.cell {
     width: 20px;
     height: 20px;
+}
+
+input.color {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: right;
 }
