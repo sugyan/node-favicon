@@ -4,6 +4,8 @@ html
     title= title
     link#favicon(rel="icon", href="/favicon?#{new Date().getTime()}")
     link(rel="stylesheet", href="/stylesheets/style.css")
+    script(type="text/javascript", src="https://www.google.com/jsapi")
+    script(type="text/javascript") google.load("jquery", "1.6.4");
     script(type="text/javascript", src="/socket.io/socket.io.js")
     script(type="text/javascript", src="/javascripts/main.js")
     script(type="text/javascript", src="/jscolor/jscolor.js")
