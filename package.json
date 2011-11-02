@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "canvas": ">=0.8.0",
+        "canvas": ">=0.8.1",
         "express": "2.5.0",
         "jade": ">= 0.16.4",
         "socket.io": ">=0.8.6"
